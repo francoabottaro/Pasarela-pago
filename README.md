@@ -1,8 +1,26 @@
-# React + Vite
+# Pasarella de pago 💳
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Este proyecto esta realizado con las singuientes tecnologias:
 
-Currently, two official plugins are available:
+- Styles
+  - CSS
+  - Styles-componets
+- React
+  - React-Router-Dom
+  - Strippe
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Configuracion necesaria:
+
+> Instalacion de las dependencia:
+
+`npm install`
+
+## Ejecucion del programa en Local
+
+> Comando:
+
+`npm run dev`
+
+## Link de produccion:
+
+en produccion ;(

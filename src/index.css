@@ -1,1 +1,16 @@
-
+/*Index.html*/
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+body {
+  background-image: linear-gradient(
+    90deg,
+    #63004c 0%,
+    #8d0e91 35%,
+    #ff00e6 100%
+  );
+}

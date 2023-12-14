@@ -1,5 +1,8 @@
+//Components of Index.jsx
+
 const Forms = () => {
-  return <div>Forms</div>;
+  //formulario of credit card
+  return <div className="form">Forms</div>;
 };
 
 export default Forms;
