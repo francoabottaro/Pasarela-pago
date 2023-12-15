@@ -3,23 +3,19 @@ import "./CSS/Resposive.css";
 /*Pages*/
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
-
 /*Librery*/
 import { Route, Routes, /*Link,*/ BrowserRouter } from "react-router-dom";
+/*Components */
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+
 const Router = () => {
   return (
     <BrowserRouter>
-      <header>
-        {/* <Link to={<Home />}>
-          <img src="../public/icon.svg" alt="Icon" />
-        </Link> */}
+      {/*  */}
+      <Header />
 
-        <nav>
-          <ul>
-            <li>hola</li>
-          </ul>
-        </nav>
-      </header>
+      {/*  */}
       <main>
         {/* Display routes */}
         <Routes>
@@ -27,6 +23,9 @@ const Router = () => {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
+
+      {/*  */}
+      <Footer />
     </BrowserRouter>
   );
 };
