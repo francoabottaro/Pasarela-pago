@@ -1,8 +1,15 @@
 /*contact*/
 main {
   min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .contact {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
   box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
   border: 2px solid rgba(0, 0, 0, 0.034);
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
@@ -11,6 +18,11 @@ main {
     0 100px 80px rgba(0, 0, 0, 0.12);
   width: 100em;
   color: white;
+  background-color: rgba(255, 255, 255, 0.165);
   font-size: 20px;
   font-weight: 900;
+  padding: 30px 50px;
+}
+#titulo-contact {
+  font-size: 2.5em;
 }
