@@ -3,7 +3,7 @@ const Footer = () => {
   return (
     <footer>
       <a
-        className="logo linkFooter"
+        className="logo linkFooter icons-effect"
         href="https://www.linkedin.com/in/franco-adolfo-bottaro"
         target="blank"
       >
@@ -11,7 +11,7 @@ const Footer = () => {
       </a>
       {/*  */}
       <a
-        className="logo linkFooter"
+        className="logo linkFooter icons-effect"
         href="https://github.com/francoabottaro/Pasarela-pago"
         target="blank"
       >

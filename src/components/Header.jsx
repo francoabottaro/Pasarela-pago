@@ -3,7 +3,7 @@ const Header = () => {
   return (
     <header>
       <div className="icons-header logo">
-        <a href="/" className="link-icon">
+        <a href="/" className="link-icon icons-effect">
           {" "}
           <img src="./icon.svg" alt="Icon" id="img-icon" />
           <h2>
