@@ -1,11 +1,10 @@
 /*contact*/
 main {
-  min-height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.contact {
+#contact {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -17,12 +16,13 @@ main {
     0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12);
   width: 100em;
+  margin: 100px 30px;
   color: white;
   background-color: rgba(255, 255, 255, 0.165);
   font-size: 20px;
   font-weight: 900;
   padding: 30px 50px;
 }
-#titulo-contact {
+#h1-contact {
   font-size: 2.5em;
 }

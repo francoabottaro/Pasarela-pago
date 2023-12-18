@@ -1,4 +1,5 @@
 //NoClickRight
+/* 
 document.addEventListener(
   "contextmenu",
   function (event) {
@@ -6,6 +7,7 @@ document.addEventListener(
   },
   false
 );
+*/
 //NoCopy
 document.addEventListener(
   "copy",

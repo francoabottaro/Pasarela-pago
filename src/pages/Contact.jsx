@@ -1,9 +1,9 @@
-import "../CSS/Roots.css";
+import "../CSS/Pages.css";
 const Contact = () => {
   return (
-    <div className="contact">
-      <h1 id="titulo-contact">Contact:</h1>
-      <p>
+    <div id="contact" className="container">
+      <h1 id="h1-contact">Contact:</h1>
+      <p id="p-contact">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
         perferendis eum incidunt dolorem obcaecati impedit similique fugit!
         Recusandae ad tenetur omnis adipisci. At suscipit deserunt illo
@@ -61,16 +61,7 @@ const Contact = () => {
         inventore vel tenetur, fugiat sint optio aliquid possimus vero nam iure
         totam similique, expedita aliquam repudiandae non? Ratione excepturi
         exercitationem explicabo corrupti! Incidunt, explicabo sunt, dolorem
-        delectus modi excepturi nobis iste culpa, corporis sequi dolor sit
-        sapiente necessitatibus. Assumenda necessitatibus earum laborum, aut
-        reprehenderit deleniti. Natus quasi facere omnis, nostrum totam dolor?
-        Fuga cum aliquam quo laboriosam labore iure odit autem officiis
-        assumenda magni doloremque, voluptatem, illo blanditiis iusto excepturi
-        suscipit, fugiat vero repellat molestias. Tempora neque natus accusamus!
-        Et, quos quasi. Est nobis atque cupiditate dolore molestias nihil a
-        facilis, culpa nostrum harum placeat error mollitia reiciendis.
-        Nesciunt, quidem. Explicabo aperiam impedit laboriosam ab laborum
-        corporis enim ducimus esse dolor facilis.
+        delectus modi excepturi nobis iste culpa, corporis sequi dolor sit.
       </p>
     </div>
   );
