@@ -2,7 +2,7 @@
 /* 
 document.addEventListener(
   "contextmenu",
-  function (event) {
+  function (e) {
     event.preventDefault();
   },
   false
@@ -11,15 +11,20 @@ document.addEventListener(
 //NoCopy
 document.addEventListener(
   "copy",
-  function (event) {
+  function (e) {
     // Change the copied text if you want
-    event.clipboardData.setData(
+    e.clipboardData.setData(
       "text/plain",
       "No se permite copiar en esta página web"
     );
 
     // Prevent the default copy action
-    event.preventDefault();
+    e.preventDefault();
   },
   false
 );
+
+//Delete dragend
+HTMLElement.addEventListener("dragend", function (e) {
+  e.preventDefault();
+});
