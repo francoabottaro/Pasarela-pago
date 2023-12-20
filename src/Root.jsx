@@ -4,7 +4,7 @@ import "./CSS/Resposive.css";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 /*Librery*/
-import { Route, Routes, /*Link,*/ BrowserRouter } from "react-router-dom";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 /*Components */
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -12,10 +12,10 @@ import Footer from "./components/Footer";
 const Router = () => {
   return (
     <BrowserRouter>
-      {/*  */}
+      {/*Componet*/}
       <Header />
 
-      {/*  */}
+      {/* Pages */}
       <main>
         {/* Display routes */}
         <Routes>
@@ -24,7 +24,7 @@ const Router = () => {
         </Routes>
       </main>
 
-      {/*  */}
+      {/* component */}
       <Footer />
     </BrowserRouter>
   );

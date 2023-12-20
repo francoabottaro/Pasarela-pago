@@ -13,6 +13,9 @@
 *::-moz-selection {
   background: none;
 }
+a {
+  cursor: pointer;
+}
 html,
 body,
 #root {
